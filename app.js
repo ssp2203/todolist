@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-mongoose.connect("mongodb+srv://admin-ssp:ssp7482426@cluster0.n4pl9.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://admin-ssp:<password>@cluster0.n4pl9.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
