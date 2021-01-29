@@ -26,6 +26,13 @@ h1 {
   text-align: center;
 }
 
+#note {
+  color: #eeeeee;
+  text-align: center;
+  font-style: oblique;
+  text-shadow: 1px 1px #000000;
+}
+
 .item {
   min-height: 70px;
   display: flex;
